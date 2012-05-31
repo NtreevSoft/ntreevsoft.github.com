@@ -1,0 +1,18 @@
+body {
+  font-family: Alegreya, serif;
+}
+
+a, a:visited {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div#main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
