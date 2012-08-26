@@ -1,0 +1,12 @@
+---
+layout: default
+title: Ntreev Soft Open Source
+---
+h1. Ntreev Soft Open Source
+
+We're a South Korean online/video game developer. (There is slightly more information in "Wikipedia":http://en.wikipedia.org/wiki/Ntreev_Soft.) For a long time, we've been using a lot of the open source projects in our products and been taking much advantages from them. Now we start share some our in-house projects into the world. All feedbacks are much appreciated.
+
+h2. Projects
+
+* "Crashweb":https://github.com/NtreevSoft/Crashweb – an automated system for collecting and analyzing crash report
+* "Ntreev Grid":https://github.com/NtreevSoft/GridControl – a speed-optimized grid control for .NET
