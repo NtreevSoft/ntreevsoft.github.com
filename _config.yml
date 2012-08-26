@@ -1,1 +1,1 @@
-exclude: [README.rst]
+exclude: [README.rst, ntreevsoft.sublime-project, ntreevsoft.sublime-workspace]
