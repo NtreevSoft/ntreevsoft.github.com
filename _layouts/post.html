@@ -1,0 +1,14 @@
+---
+layuot: default
+---
+<div class="post">
+  <article>
+    <header>
+      <h2>{{ page.title }}</h2>
+      <time datetime="{{ page.date | date: "%Y-%m" }}">
+      {% include date.html %}
+      </time>
+    </header>
+    {{ content }}
+  </article>
+</div>
