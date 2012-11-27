@@ -1,3 +1,9 @@
+/* Reset */
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Alegreya, serif;
 }
@@ -15,4 +21,32 @@ div#main {
   margin-left: auto;
   margin-right: auto;
   width: 600px;
+}
+
+ul.ntreev-color-tabs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.ntreev-color-tabs li {
+  display: inline-block;
+  margin: 0;
+  padding: 6px 25% 0px 0px;
+}
+
+ul.ntreev-color-tabs li:nth-child(1) {
+  background: rgb(255, 210, 0);
+}
+
+ul.ntreev-color-tabs li:nth-child(2) {
+  background: rgb(0, 157, 220);
+}
+
+ul.ntreev-color-tabs li:nth-child(3) {
+  background: rgb(193, 205, 35);
+}
+
+ul.ntreev-color-tabs li:nth-child(4) {
+  background: rgb(240, 139, 29);
 }
