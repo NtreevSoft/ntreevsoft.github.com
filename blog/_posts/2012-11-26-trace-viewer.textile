@@ -1,4 +1,11 @@
 ---
-title: "Trace Viewer"
+title: "프로파일링 데이터 비주얼라이즈 하기"
 layout: post
 ---
+h3. 소개
+
+이 글은 Colt McAnlis가 소개한[1] Google Chrome의 트레이싱 기능을 되집어 보려 합니다.
+
+h3. 참조
+
+fn1. "Using Chrome://tracing to view your inline profileing data":http://www.altdevblogaday.com/2012/08/21/using-chrometracing-to-view-your-inline-profiling-data/ (Colt McAnlis)
