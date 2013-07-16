@@ -5,10 +5,16 @@ layout: default
   <article>
     <header>
       <h2>{{ page.title }}</h2>
-      <time datetime="{{ page.date | date: "%Y-%m" }}">
-      {% include date.html %}
-      </time>
+      <p>
+        <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
+          {% include date.html %}
+        </time>
+        <author>{{ page.author }}</author>
+      </p>
     </header>
     {{ content }}
+    <footer>
+      <p><small>Creative Commons Attribution-ShareAlike License</small></p>
+    </footer>
   </article>
 </div>
